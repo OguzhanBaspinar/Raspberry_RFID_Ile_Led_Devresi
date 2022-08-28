@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install python-dev
 komutlarını yazarak yüklemeleri yapınız. (Rasperry PI gerekli güncellemeler)
 
-*𝙂𝙋𝙄𝙊 𝙆𝙪̈𝙩𝙪̈𝙥𝙝𝙖𝙣𝙚𝙨𝙞𝙣𝙞𝙣 𝘾̧𝙖𝙜̆ı𝙧ı𝙡𝙢𝙖𝙨ı*
+𝙂𝙋𝙄𝙊 𝙆𝙪̈𝙩𝙪̈𝙥𝙝𝙖𝙣𝙚𝙨𝙞𝙣𝙞𝙣 𝘾̧𝙖𝙜̆ı𝙧ı𝙡𝙢𝙖𝙨ı : 
 Raspberry Pi kartınızda GPIO kütüphanesinin ismi RPi.GPIO olarak kullanılmaktadır. Python programında bu kütüphaneyi eklemek için
 aşağıdaki komut kullanılmaktadır.
 >> import RPi.GPIO
@@ -16,7 +16,7 @@ aşağıdaki kod kullanılmaktadır.
 
 >> import RPi.GPIO as GPIO
 
-GPIO Pin Türünün Ayarlanması
+𝙂𝙋𝙄𝙊 𝙋𝙞𝙣 𝙏𝙪̈𝙧𝙪̈𝙣𝙪̈𝙣 𝘼𝙮𝙖𝙧𝙡𝙖𝙣𝙢𝙖𝙨ı : 
 Raspberry Pi’ın GPIO pinlerini isimlendirirken iki farklıdizilimle karşılaşırız. Bunlar BCM dizilimi ve BOARD
 dizilimidir. BCM dizilimi pinlere verilen GPIO numaralarından oluşmaktadır. Bunlar sıralı numaralar değildir.
 BOARD dizilimi ise pinlerin fiziksel numaralandırılmasıdır. 1’den başlayıp 40’a kadar devam eden sıralı sayılardan oluşur.
