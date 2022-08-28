@@ -37,5 +37,5 @@ RFID kartını kullanabilmek için gerekli kütüphaneyi raspberry de console ü
 
 >> sudo pip install pi-rc522
 <br>
-Python kodlarına kodlarım sekmesinden ulaşabilirsiniz.
+Python kodlarına, kodlarım sekmesinden ulaşabilirsiniz.
 
