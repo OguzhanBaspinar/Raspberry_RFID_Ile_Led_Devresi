@@ -6,7 +6,7 @@ sudo apt-get update
 sudo apt-get install python-dev
 komutlarını yazarak yüklemeleri yapınız. (Rasperry PI gerekli güncellemeler)
 
-^*GPIO Kütüphanesinin Çağırılması*^
+*𝙂𝙋𝙄𝙊 𝙆𝙪̈𝙩𝙪̈𝙥𝙝𝙖𝙣𝙚𝙨𝙞𝙣𝙞𝙣 𝘾̧𝙖𝙜̆ı𝙧ı𝙡𝙢𝙖𝙨ı*
 Raspberry Pi kartınızda GPIO kütüphanesinin ismi RPi.GPIO olarak kullanılmaktadır. Python programında bu kütüphaneyi eklemek için
 aşağıdaki komut kullanılmaktadır.
 >> import RPi.GPIO
