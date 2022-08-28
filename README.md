@@ -18,3 +18,24 @@ GPIO kütüphanesini programda daha sonra GPIO ismiyle çağırmak için aşağ�
 Raspberry Pi’ın GPIO pinlerini isimlendirirken iki farklıdizilimle karşılaşırız. Bunlar BCM dizilimi ve BOARD dizilimidir. BCM dizilimi pinlere verilen GPIO numaralarından oluşmaktadır. Bunlar sıralı numaralar değildir. BOARD dizilimi ise pinlerin fiziksel numaralandırılmasıdır. 1’den başlayıp 40’a kadar devam eden sıralı sayılardan oluşur.
 Resimde Raspberry Pi'nin pin girişleri ve isimleri yer almaktadır. <br>
 ![gpio-pinout-diagram](https://user-images.githubusercontent.com/106193850/187070778-c4f0181f-84a5-4524-9053-1717bb102509.png)
+<br>
+**Deneyde Kullanılacak Malzemeler:** <br>
+- Bread Board <br>
+- 3 Adet Led <br>
+- Raspberyy Pi <br>
+- RFID Kart Okuyucu <br>
+- Jumper Kablo (d-e, e-e) <br>
+- 3 Adet 220 Ohm Direnç <br>
+
+RFID sistemi temel olarak 2 bileşenden oluşmaktadır. Bunlar; <br>
+• RFID Tag (RFID Etiketi) <br>
+• RFID Reader/Writer (RFID Okuyucu/Yazıcı) <br>
+Etiket, içinde nesneye ait bilgilerin depolandığı bir yonga (çip seti) ve okuyucu ile iletişime geçebilmek için bir anten barındıran bileşenlerdir. Okuyucu ile iletişime geçebilmek için RF sinyallerini kullanırlar. Etiketlerin yüzeyleri farklı türde malzemelerle kaplanabilir. Her etiketin benzersiz bir tanımlayıcı (id) numarası vardır. Etiketlerin hafıza kapasiteleri 64 bit – 8 MB arasında değişebilir. RFID etiketler okuyucu ile temas etmeden iletişime geçebilirler. <br>
+RFID bağlantılarını aşağıdaki tablodaki pinlere göre ayarlayınız.
+![RFID Pin](https://user-images.githubusercontent.com/106193850/187072547-7abcecb5-0354-4e02-8572-3ec40427d761.png) <br>
+RFID kartını kullanabilmek için gerekli kütüphaneyi raspberry de console üzerinden yükleyiniz. RC522 (RFID kartın kütüphanesi) <br>
+
+>> sudo pip install pi-rc522
+<br>
+Python kodlarına kodlarım sekmesinden ulaşabilirsiniz.
+
