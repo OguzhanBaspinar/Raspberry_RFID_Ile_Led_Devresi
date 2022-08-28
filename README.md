@@ -1,9 +1,9 @@
 # Raspberry_RFID_Ile_Led_Devresi
 
-Raspberyy GPIO pinlerinin hepsini kullanabilmek için aşağıdaki adımları uygulayınız;
+Raspberyy GPIO pinlerinin hepsini kullanabilmek için aşağıdaki adımları uygulayınız; < /p >
 Raspberyy Pi konsolunu açınız.
-𝙨𝙪𝙙𝙤 𝙖𝙥𝙩-𝙜𝙚𝙩 update
-sudo apt-get install python-dev
+𝙨𝙪𝙙𝙤 𝙖𝙥𝙩-𝙜𝙚𝙩 𝙪𝙥𝙙𝙖𝙩𝙚
+𝙨𝙪𝙙𝙤 𝙖𝙥𝙩-𝙜𝙚𝙩 𝙞𝙣𝙨𝙩𝙖𝙡𝙡 𝙥𝙮𝙩𝙝𝙤𝙣-𝙙𝙚𝙫
 komutlarını yazarak yüklemeleri yapınız. (Rasperry PI gerekli güncellemeler)
 
 𝙂𝙋𝙄𝙊 𝙆𝙪̈𝙩𝙪̈𝙥𝙝𝙖𝙣𝙚𝙨𝙞𝙣𝙞𝙣 𝘾̧𝙖𝙜̆ı𝙧ı𝙡𝙢𝙖𝙨ı : 
